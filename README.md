@@ -2,7 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, create a `.env` file in the project directory and add your DeepSeek API key to the `DEEPSEEK_API_KEY` environment variable, along with a system command for the AI agent in the `AI_SYSTEM_COMMAND` variable.
+
+```bash
+// .env
+
+DEEPSEEK_API_KEY=""
+AI_SYSTEM_COMMAND=""
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
